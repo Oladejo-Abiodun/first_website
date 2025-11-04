@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <style>
+    .container {
+      background-color: lightblue;
+      width: 270px;
+      border-radius: 5px;
+    }
+    .box {
+      width: 260px;
+      height: 50px;
+    }
+
+    .addition {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .addition input[type="button"] {
+      width: 60px;
+      height: 40px;
+      background-color: lightblue;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .box1 {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .box1 input[type="button"] {
+      width: 60px;
+      height: 40px;
+      background-color: lightblue;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div>
+        <input type="text" class="box" value="0" />
+      </div>
+
+      <div class="addition">
+        <input type="button" class="" value="MC" />
+        <input type="button" class="" value="MR" />
+        <input type="button" class="" value="M+" />
+        <input type="button" class="" value="M-" />
+        <!-- <input type="button" class="" value="MS" />
+        <input type="button" class="" value="M^" /> -->
+      </div>
+
+      <div class="box1">
+        <input type="button" class="" value="%" />
+        <input type="button" class="" value="CE" />
+        <input type="button" class="" value="C" />
+        <input type="button" class="" value="x" />
+      </div>
+
+      <div class="box1">
+        <input type="button" class="" value="#" />
+        <input type="button" class="" value="$" />
+        <input type="button" class="" value="%" />
+        <input type="button" class="" value="/" />
+      </div>
+
+      <div class="box1">
+        <input type="button" class="" value="7" />
+        <input type="button" class="" value="8" />
+        <input type="button" class="" value="9" />
+        <input type="button" class="" value="*" />
+      </div>
+
+      <div class="box1">
+        <input type="button" class="" value="4" />
+        <input type="button" class="" value="5" />
+        <input type="button" class="" value="6" />
+        <input type="button" class="" value="-" />
+      </div>
+
+      <div class="box1">
+        <input type="button" class="" value="1" />
+        <input type="button" class="" value="2" />
+        <input type="button" class="" value="3" />
+        <input type="button" class="" value="+" />
+      </div>
+
+      <div class="box1">
+        <input type="button" class="" value="+/-" />
+        <input type="button" class="" value="0" />
+        <input type="button" class="" value="." />
+        <input type="button" class="" value="=" />
+      </div>
+    </div>
+  </body>
+</html>
