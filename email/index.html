@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-[#f0f4f9]">
+    <div class="h-screen flex justify-center items-center">
+      <section
+        class="bg-white md:w-[70vw] rounded-lg md:h-[80vh] w-screen h-screen p-8"
+      >
+        <div class="md:flex">
+          <div class="space-y-4 w-full">
+            <img
+              src="./image/google.png"
+              alt=""
+              class="object-contain h-16 w-16"
+            />
+            <h1 class="text-4xl">Sign in</h1>
+            <p class="">
+              with your Google Account to continue to Gmail. This account will
+              be available to other Google apps in the browser.
+            </p>
+          </div>
+
+          <div class="mt-26 w-full">
+            <input
+              type="text"
+              class="w-full h-14 border border-black rounded px-3 py-2 focus:outline-none"
+              placeholder="Email or phone"
+            />
+            <label class="text-sm text-blue-700">Forget email?</label>
+            <p class="text-sm mt-10">
+              Not your computer? Use Guest mode to sign in privately.
+            </p>
+            <a href="" class="text-sm text-blue-700"
+              >Learn more about using Guest mode</a
+            >
+
+            <div class="mt-10 flex justify-between md:justify-end gap-10">
+              <button class="text-sm">Create account</button>
+              <button
+                class="text-sm bg-blue-700 text-white border rounded-full w-fit px-4 py-2"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
